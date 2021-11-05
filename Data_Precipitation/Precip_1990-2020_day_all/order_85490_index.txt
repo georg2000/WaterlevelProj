@@ -1,0 +1,18 @@
+Federal Office of Meteorology and Climatology, MeteoSwiss
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+Order number 85490
+
+Filename                                Filetype  Station                              Parameter                                                   Period
+order_85490_ARI_rre150d0_1_data.txt     Data      Arisdorf                             Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85490_ARI_rre150d0_1_legend.txt   Legend    Arisdorf                             Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85490_BAS_rre150d0_1_data.txt     Data      Basel / Binningen                    Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85490_BAS_rre150d0_1_legend.txt   Legend    Basel / Binningen                    Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85490_EPT_rre150d0_1_data.txt     Data      Eptingen                             Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85490_EPT_rre150d0_1_legend.txt   Legend    Eptingen                             Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85490_REG_rre150d0_1_data.txt     Data      Reigoldswil                          Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85490_REG_rre150d0_1_legend.txt   Legend    Reigoldswil                          Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85490_RUE_rre150d0_1_data.txt     Data      Rünenberg                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85490_RUE_rre150d0_1_legend.txt   Legend    Rünenberg                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101

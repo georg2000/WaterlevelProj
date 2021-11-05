@@ -1,0 +1,50 @@
+Federal Office of Meteorology and Climatology, MeteoSwiss
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+Order number 85763
+
+Filename                                Filetype  Station                              Parameter                                                   Period
+order_85763_TAE_rre150d0_1_data.txt     Data      Aadorf / Tänikon                     Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_TAE_rre150d0_1_legend.txt   Legend    Aadorf / Tänikon                     Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_AFT_rre150d0_1_data.txt     Data      Affeltrangen                         Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_AFT_rre150d0_1_legend.txt   Legend    Affeltrangen                         Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_AMW_rre150d0_1_data.txt     Data      Amriswil                             Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_AMW_rre150d0_1_legend.txt   Legend    Amriswil                             Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_ARB_rre150d0_1_data.txt     Data      Arbon                                Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_ARB_rre150d0_1_legend.txt   Legend    Arbon                                Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_BEZ_rre150d0_1_data.txt     Data      Beznau                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_BEZ_rre150d0_1_legend.txt   Legend    Beznau                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_BNU_rre150d0_1_data.txt     Data      Braunau                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_BNU_rre150d0_1_legend.txt   Legend    Braunau                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_BUS_rre150d0_1_data.txt     Data      Buchs / Aarau                        Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_BUS_rre150d0_1_legend.txt   Legend    Buchs / Aarau                        Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_UBB_rre150d0_1_data.txt     Data      Bözberg                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_UBB_rre150d0_1_legend.txt   Legend    Bözberg                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_DIE_rre150d0_1_data.txt     Data      Diessenhofen                         Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_DIE_rre150d0_1_legend.txt   Legend    Diessenhofen                         Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_ESZ_rre150d0_1_data.txt     Data      Eschenz                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_ESZ_rre150d0_1_legend.txt   Legend    Eschenz                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_FRF_rre150d0_1_data.txt     Data      Frauenfeld                           Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_FRF_rre150d0_1_legend.txt   Legend    Frauenfeld                           Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_FRI_rre150d0_1_data.txt     Data      Frick                                Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_FRI_rre150d0_1_legend.txt   Legend    Frick                                Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_GUT_rre150d0_1_data.txt     Data      Güttingen                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_GUT_rre150d0_1_legend.txt   Legend    Güttingen                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_LFB_rre150d0_1_data.txt     Data      Laufenburg                           Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_LFB_rre150d0_1_legend.txt   Legend    Laufenburg                           Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_LEI_rre150d0_1_data.txt     Data      Leibstadt                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_LEI_rre150d0_1_legend.txt   Legend    Leibstadt                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_MUR_rre150d0_1_data.txt     Data      Muri, AG                             Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_MUR_rre150d0_1_legend.txt   Legend    Muri, AG                             Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_NIE_rre150d0_1_data.txt     Data      Niederneunforn                       Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_NIE_rre150d0_1_legend.txt   Legend    Niederneunforn                       Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_HAI_rre150d0_1_data.txt     Data      Salen-Reutenen                       Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_HAI_rre150d0_1_legend.txt   Legend    Salen-Reutenen                       Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_SNG_rre150d0_1_data.txt     Data      Seengen                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_SNG_rre150d0_1_legend.txt   Legend    Seengen                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_STE_rre150d0_1_data.txt     Data      Steckborn                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_STE_rre150d0_1_legend.txt   Legend    Steckborn                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_UNK_rre150d0_1_data.txt     Data      Unterkulm                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85763_UNK_rre150d0_1_legend.txt   Legend    Unterkulm                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101

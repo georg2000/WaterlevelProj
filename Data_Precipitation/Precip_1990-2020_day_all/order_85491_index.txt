@@ -1,0 +1,20 @@
+Federal Office of Meteorology and Climatology, MeteoSwiss
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+Order number 85491
+
+Filename                                Filetype  Station                              Parameter                                                   Period
+order_85491_UBB_rre150d0_1_data.txt     Data      Bözberg                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85491_UBB_rre150d0_1_legend.txt   Legend    Bözberg                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85491_OED_rre150d0_1_data.txt     Data      Ehrendingen                          Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85491_OED_rre150d0_1_legend.txt   Legend    Ehrendingen                          Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85491_FRI_rre150d0_1_data.txt     Data      Frick                                Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85491_FRI_rre150d0_1_legend.txt   Legend    Frick                                Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85491_LFB_rre150d0_1_data.txt     Data      Laufenburg                           Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85491_LFB_rre150d0_1_legend.txt   Legend    Laufenburg                           Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85491_LEI_rre150d0_1_data.txt     Data      Leibstadt                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85491_LEI_rre150d0_1_legend.txt   Legend    Leibstadt                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85491_MOE_rre150d0_1_data.txt     Data      Möhlin                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85491_MOE_rre150d0_1_legend.txt   Legend    Möhlin                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101

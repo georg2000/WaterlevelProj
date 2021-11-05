@@ -1,0 +1,16 @@
+Federal Office of Meteorology and Climatology, MeteoSwiss
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+Order number 85492
+
+Filename                                Filetype  Station                              Parameter                                                   Period
+order_85492_AFI_rre150d0_1_data.txt     Data      Andelfingen                          Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85492_AFI_rre150d0_1_legend.txt   Legend    Andelfingen                          Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85492_BUE_rre150d0_1_data.txt     Data      Bülach                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85492_BUE_rre150d0_1_legend.txt   Legend    Bülach                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85492_ZHWIN_rre150d0_1_data.txt   Data      Winterthur                           Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85492_ZHWIN_rre150d0_1_legend.txt Legend    Winterthur                           Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85492_WIN_rre150d0_1_data.txt     Data      Winterthur / Seen                    Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85492_WIN_rre150d0_1_legend.txt   Legend    Winterthur / Seen                    Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101

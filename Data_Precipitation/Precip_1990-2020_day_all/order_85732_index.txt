@@ -1,0 +1,20 @@
+Federal Office of Meteorology and Climatology, MeteoSwiss
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+Order number 85732
+
+Filename                                Filetype  Station                              Parameter                                                   Period
+order_85732_ESZ_rre150d0_1_data.txt     Data      Eschenz                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85732_ESZ_rre150d0_1_legend.txt   Legend    Eschenz                              Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85732_HLL_rre150d0_1_data.txt     Data      Hallau                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85732_HLL_rre150d0_1_legend.txt   Legend    Hallau                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85732_LAF_rre150d0_1_data.txt     Data      Laufen                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85732_LAF_rre150d0_1_legend.txt   Legend    Laufen                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85732_LOH_rre150d0_1_data.txt     Data      Lohn, SH                             Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85732_LOH_rre150d0_1_legend.txt   Legend    Lohn, SH                             Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85732_HAI_rre150d0_1_data.txt     Data      Salen-Reutenen                       Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85732_HAI_rre150d0_1_legend.txt   Legend    Salen-Reutenen                       Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85732_SIS_rre150d0_1_data.txt     Data      Sissach                              Precipitation; daily total 6 UTC - 6 UTC following day      19950531-20200101
+order_85732_SIS_rre150d0_1_legend.txt   Legend    Sissach                              Precipitation; daily total 6 UTC - 6 UTC following day      19950531-20200101

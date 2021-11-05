@@ -1,0 +1,10 @@
+Federal Office of Meteorology and Climatology, MeteoSwiss
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+Order number 85493
+
+Filename                                Filetype  Station                              Parameter                                                   Period
+order_85493_SHA_rre150d0_1_data.txt     Data      Schaffhausen                         Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85493_SHA_rre150d0_1_legend.txt   Legend    Schaffhausen                         Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101

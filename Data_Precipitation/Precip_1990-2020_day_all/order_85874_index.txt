@@ -1,0 +1,18 @@
+Federal Office of Meteorology and Climatology, MeteoSwiss
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+Order number 85874
+
+Filename                                Filetype  Station                              Parameter                                                   Period
+order_85874_APP_rre150d0_1_data.txt     Data      Appenzell                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85874_APP_rre150d0_1_legend.txt   Legend    Appenzell                            Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85874_EBK_rre150d0_1_data.txt     Data      Ebnat-Kappel                         Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85874_EBK_rre150d0_1_legend.txt   Legend    Ebnat-Kappel                         Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85874_FLW_rre150d0_1_data.txt     Data      Flawil                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85874_FLW_rre150d0_1_legend.txt   Legend    Flawil                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85874_GOE_rre150d0_1_data.txt     Data      Gösgen                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85874_GOE_rre150d0_1_legend.txt   Legend    Gösgen                               Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85874_STG_rre150d0_1_data.txt     Data      St. Gallen                           Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
+order_85874_STG_rre150d0_1_legend.txt   Legend    St. Gallen                           Precipitation; daily total 6 UTC - 6 UTC following day      19900101-20200101
