@@ -52,3 +52,19 @@ print("Predicted highest waterlevel:\n",results.predict().max())
 
 print("Real lowest waterlevel:\n",Yi[Yi.idxmin()])
 print("Predicted lowest waterlevel:\n",results.predict(Xic.iloc[Yi.idxmin(),:].values.tolist()))
+
+
+#prepare for time series plot
+index = pd.date_range(start=pd.Timestamp('1992-02-02'), end=pd.Timestamp('2019-11-01'))
+timeindex = pd.DatetimeIndex(index)
+df = pd.DataFrame(data=Yp, columns=['waterlevel'])
+df = df.set_index(timeindex)
+print(df)
+print(df_ts_wl)
+
+#plot timeseries precipitation
+fig, axs = plt.subplots(2)
+fig.suptitle('Time Series of real water levels vs. predicted')
+axs[0].plot(df_ts_wl.index, df_ts_wl.Wert)
+axs[1].plot(df.index, df.waterlevel)
+plt.show()
