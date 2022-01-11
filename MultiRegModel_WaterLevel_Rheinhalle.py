@@ -5,7 +5,6 @@ import Conv_Wasserstand
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
 import Create_lag_df
-import matplotlib.pyplot as plt
 from sklearn import metrics
 
 cant_list_all = ['AFI', 'AFT', 'ALW', 'AMW', 'ARB', 'ARI', 'BAM', 'BAS', 'BEZ', 'BNU', 'BUE', 'BUS', 'DIE', 'DIT', 'EFF', 'EPT', 'ESZ', 'FRF', 'FRI', 'GUT', 'HAI', 'HAU', 'HIW', 'HLL', 'KUE', 'LAF', 'LEI', 'LFB', 'LGA', 'LOH', 'MOE', 'MUR', 'NIE', 'OED', 'OPF', 'OTE', 'PFA', 'REG', 'REH', 'RUE', 'SHA', 'SMA', 'SNG', 'STE', 'TAE', 'UBB', 'UNK', 'UST', 'WAE', 'WAG', 'WBR', 'WIN', 'ZHBID', 'ZHMON', 'ZHNIE', 'ZHTUR', 'ZHWIN', 'ZHZEL', 'ZWK', 'APP', 'FLW', 'EBK', 'GOE', 'STG']
