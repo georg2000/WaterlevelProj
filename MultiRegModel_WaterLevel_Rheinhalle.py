@@ -1,4 +1,5 @@
 import pandas as pd
+import math
 import Conv_Niederschlag
 import Conv_Wasserstand
 import matplotlib.pyplot as plt
@@ -40,13 +41,11 @@ results = model.fit()
 #Show the summary
 print("Model performance:\n",results.summary())
 
-#calculate MSE
+#calculate RMSE
 Yp = results.predict()
-MSE = metrics.mean_squared_error(Yi, Yp)
-print("MSE: ", MSE)
+RMSE = math.sqrt(metrics.mean_squared_error(Yi, Yp))
+print("RMSE: ", RMSE)
 
-with open('summary1.csv', 'w') as fh:
-    fh.write(results.summary().as_csv())
 
 #predict
 Yp = results.predict()
@@ -70,8 +69,7 @@ index = pd.date_range(start=pd.Timestamp('1990-02-02'), end=pd.Timestamp('2020-0
 timeindex = pd.DatetimeIndex(index)
 df = pd.DataFrame(data=Yp, columns=['waterlevel'])
 df = df.set_index(timeindex)
-print(df)
-print(df_ts_wl)
+
 
 #plot timeseries precipitation
 fig, axs = plt.subplots(2)

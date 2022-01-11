@@ -1,11 +1,13 @@
 
 
 import pandas as pd
+import math
 import Conv_Niederschlag
 import Conv_Wasserstand
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
 import Create_lag_df
+from sklearn import metrics
 
 
 
@@ -47,6 +49,11 @@ plt.xlabel("Precipitation")
 plt.ylabel("Waterlevel")
 plt.show()
 
+#calculate RMSE
+Yp = results.predict()
+RMSE = math.sqrt(metrics.mean_squared_error(Yi, Yp))
+print("RMSE: ", RMSE)
+
 #print(results.predict(Xic.iloc[Yi.idxmax(),:].values.tolist()))
 print("Real highest waterlevel:\n",Yi[Yi.idxmax()])
 print("Predicted highest waterlevel:\n",results.predict().max())
@@ -60,8 +67,7 @@ index = pd.date_range(start=pd.Timestamp('1992-02-02'), end=pd.Timestamp('2019-1
 timeindex = pd.DatetimeIndex(index)
 df = pd.DataFrame(data=Yp, columns=['waterlevel'])
 df = df.set_index(timeindex)
-print(df)
-print(df_ts_wl)
+
 
 #plot timeseries precipitation
 fig, axs = plt.subplots(2)
