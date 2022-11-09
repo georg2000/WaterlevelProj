@@ -19,12 +19,13 @@ import Create_lag_df
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.feature_selection import SelectFromModel
+import pickle
 
 
 cant_list = ['AFI', 'AFT', 'ALW', 'AMW', 'ARB', 'ARI', 'BAM', 'BAS', 'BEZ', 'BNU', 'BUE', 'BUS', 'DIE', 'DIT', 'EFF', 'EPT', 'ESZ', 'FRF', 'FRI', 'GUT', 'HAI', 'HAU', 'HIW', 'HLL', 'KUE', 'LAF', 'LEI', 'LFB', 'LGA', 'LOH', 'MOE', 'MUR', 'NIE', 'OED', 'OPF', 'OTE', 'PFA', 'REG', 'REH', 'RUE', 'SHA', 'SMA', 'SNG', 'STE', 'TAE', 'UBB', 'UNK', 'UST', 'WAE', 'WAG', 'WBR', 'WIN', 'ZHBID', 'ZHMON', 'ZHNIE', 'ZHTUR', 'ZHWIN', 'ZHZEL', 'ZWK' ]
 
 #Here the best set of precipitation measurement stations is givan but could be changed, as well as lag.
-df = Create_lag_df.create_df_shift(['ARB', 'LFB', 'RUE', 'UST'], 20, "rre150d0", "Data_Precipitation/Precip_1990-2020_day_all/order_ARB_rre150d0_1_data.txt")
+df = Create_lag_df.create_df_shift(['ARB', 'LFB', 'RUE', 'UST'], 16, "rre150d0", "Data_Precipitation/Precip_1990-2020_day_all/order_ARB_rre150d0_1_data.txt")
 print("dfn:\n", df)
 
 df_waterlts = Conv_Wasserstand.convert_waterlevel("Data_Waterlevel/2116_Pegel_Stundenmittel_1974-01-01_2020-03-01.csv", "days")[1]
@@ -49,7 +50,7 @@ Y_train = Ytrain.Wert.reset_index(drop=True)
 Y_test = Ytest.Wert.reset_index(drop=True)
 
 Xtrain.head()
-
+print(X_test)
 
 
 #prepare regressor
@@ -57,11 +58,13 @@ xg_reg = xgb.XGBRegressor()
 
 # Fit the regressor to the training set with fit()
 xg_reg.fit(X_train,Y_train)
+xg_reg.fit(X_train,Y_train)
 
 # Make predictions to the test set with predict()
 Y_pred = xg_reg.predict(X_test)
 
-
+#safe model
+pickle.dump(xg_reg, open("modelXG.sav", 'wb'))
 
 # Compute the rmse from sklearns metrics module imported earlier
 rmse = np.sqrt(mean_squared_error(Y_test, Y_pred))
